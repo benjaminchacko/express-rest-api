@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+/* const mongoose = require("mongoose");
 const Joigoose = require("joigoose")(mongoose);
 const Joi = require("joi");
 
@@ -14,9 +14,9 @@ const mongooseUserSchema = new mongoose.Schema(
   { timestamps: true } // automatically adds createdAt and updatedAt fields
 );
 
-module.exports = mongoose.model("User", mongooseUserSchema);
+module.exports = mongoose.model("User", mongooseUserSchema); */
 
-/* const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
     name: {
@@ -46,9 +46,8 @@ const userSchema = new mongoose.Schema({
     },
     date: {
         type: Date,
-        default: Date.now
-    }
+        default: Date.now,
+      },
 });
 
 module.exports = mongoose.model("User", userSchema);
- */
