@@ -1,0 +1,14 @@
+# Ignore artifacts:
+build
+assets
+package.json
+package-lock.json
+yarn.lock
+README.md
+LICENSE
+coverage
+/node_modules
+.env
+.gitignore
+.env.example
+.eslintrc.json
