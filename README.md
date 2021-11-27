@@ -7,7 +7,7 @@
 
 ## Project Description
 
-This repository an Express.js API routes app which is a simple example of how to use the [Express.js](https://expressjs.com/) framework.
+This repository is an Express.js API routes app which is a simple example of how to use the [Express.js](https://expressjs.com/) framework.
 
 I have used the [MongoDB](https://www.mongodb.com/) database to store the data.
 
